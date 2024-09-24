@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container-3 {
+    width: 100%;
+    background-color: beige;
+}
+
+.header-3 {
+    background-color: cyan;
+    height: 50px;
+}
+
+.main-3 {
+    display: flex;
+    padding: 20px;
+}
+
+.left {
+    width: 50px;
+    background-color: orange;
+}
+
+.center {
+    flex-grow: 1;
+    background-color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.inner-red {
+    background-color: red;
+    position: relative;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.black-box {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
